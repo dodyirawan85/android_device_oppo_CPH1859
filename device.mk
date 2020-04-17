@@ -81,6 +81,10 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0 \
     android.hidl.manager@1.0_system
 
+# zRam
+PRODUCT_PACKAGES += \
+    set_zram.sh
+
 #WiFi
 PRODUCT_PACKAGES += \
     hostapd \
