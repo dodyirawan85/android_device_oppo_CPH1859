@@ -19,8 +19,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Ancient stuff.
-$(call inherit-product, vendor/ancient/config/common_full_phone.mk)
+# Inherit some common Derpfest stuff.
+$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Inherit from oppo CPH1861
 $(call inherit-product, device/oppo/CPH1859/device.mk)
@@ -36,7 +36,7 @@ WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
 
-PRODUCT_NAME := ancient_CPH1859
+PRODUCT_NAME := derp_CPH1859
 PRODUCT_DEVICE := CPH1859
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := OPPO
